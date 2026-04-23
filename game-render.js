@@ -707,7 +707,7 @@ function drawMenuScreen() {
 
   ctx.fillStyle = "#0f1610";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = palette.grass;
+  ctx.fillStyle = "black";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = "rgba(0,0,0,0.34)";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
