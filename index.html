@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whisperwood Outbreak</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <div class="hud-bar">
+        <div>
+          <h1>Whisperwood Outbreak</h1>
+          <p>Pixel-art zombie survival in a haunted forest inspired by `Images/refimage.png`.</p>
+        </div>
+        <div class="legend">
+          <span>`WASD` move</span>
+          <span>`Shift` sprint</span>
+          <span>`F` or click attack</span>
+          <span>`R` ultimate</span>
+          <span>`Q` train upgrade</span>
+          <span>`E` class skill</span>
+          <span>`Z` branch</span>
+          <span>`Esc` pause</span>
+        </div>
+      </div>
+
+      <div class="game-wrap">
+        <canvas id="game" width="960" height="540" aria-label="Whisperwood Outbreak game canvas"></canvas>
+        <aside class="panel">
+          <section>
+            <h2>Objective</h2>
+            <p id="objective"></p>
+          </section>
+          <section>
+            <h2>Area</h2>
+            <p id="area"></p>
+          </section>
+          <section>
+            <h2>Status</h2>
+            <p id="status"></p>
+          </section>
+          <section>
+            <h2>How To Play</h2>
+            <p>Choose a class, survive shifting forest events, train branches and passive upgrades at the forge, and bring down bosses before the Mega Boss rises.</p>
+          </section>
+        </aside>
+      </div>
+    </div>
+
+    <script src="game-data.js"></script>
+    <script src="game-render.js"></script>
+    <script src="game-app.js"></script>
+  </body>
+  </html>
